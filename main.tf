@@ -5,7 +5,3 @@ provider "aws" {
   secret_key = ""
   region     = ""
 }
-
-resource "aws_instance" "web" {
-  # ...
-}
